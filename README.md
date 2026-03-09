@@ -1,6 +1,6 @@
-# 📊 Retail Store Profit Analysis Dashboard
+﻿# 📊 Retail Store Profit Analysis Dashboard
 
-![Dashboard Preview](../dashboard/retail-store-dashboard.png)
+![Dashboard Preview](dashboard/retail-store-dashboard.png)
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
@@ -11,8 +11,7 @@
 - [Tools & Technologies](#-tools--technologies)
 - [How to Use](#-how-to-use)
 - [Visualizations](#-visualizations)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
@@ -38,53 +37,41 @@ The dataset contains **1,000 retail transaction records** from a global retail c
 ### 📊 Dataset Statistics
 - **Total Records:** 1,000 transactions
 - **Time Period:** 2010 - 2017
-- **Geographic Coverage:** 6 regions, multiple countries
+- **Geographic Coverage:** 7 regions, 50+ countries
 - **Product Categories:** 12 item types
 - **Sales Channels:** Online and Offline
 
-### 📝 Column Descriptions
+### 📝 Key Data Fields
 
-| Column Name | Description | Data Type |
-|-------------|-------------|-----------|
-| **Region** | Geographic region (e.g., North America, Europe, Asia) | Text |
-| **Country** | Specific country where the order was placed | Text |
-| **Item Type** | Product category (Cosmetics, Vegetables, Baby Food, etc.) | Text |
-| **Rep Name** | Sales representative handling the order | Text |
-| **Sales Channel** | Distribution method (Online/Offline) | Text |
-| **Order Priority** | Priority level (H-High, M-Medium, L-Low, C-Critical) | Text |
-| **Order Date** | Date when the order was placed | Date |
-| **Order ID** | Unique identifier for each transaction | Number |
-| **Ship Date** | Date when the order was shipped | Date |
-| **Units Sold** | Quantity of products sold in the order | Number |
-| **Unit Price** | Selling price per unit | Currency |
-| **Unit Cost** | Production/procurement cost per unit | Currency |
-| **Total Revenue** | Total income from the sale (Units Sold × Unit Price) | Currency |
-| **Total Cost** | Total cost of goods sold (Units Sold × Unit Cost) | Currency |
-| **Total Profit** | Profit earned (Total Revenue - Total Cost) | Currency |
-| **Year** | Extracted year from Order Date | Number |
+| Column Name | Description |
+|-------------|-------------|
+| **Region** | Geographic region (North America, Europe, Asia, etc.) |
+| **Country** | Specific country where the order was placed |
+| **Item Type** | Product category (Cosmetics, Baby Food, Office Supplies, etc.) |
+| **Sales Channel** | Distribution method (Online/Offline) |
+| **Order Priority** | Priority level (H-High, M-Medium, L-Low, C-Critical) |
+| **Order Date** | Date when the order was placed |
+| **Ship Date** | Date when the order was shipped |
+| **Units Sold** | Quantity of products sold |
+| **Unit Price** | Selling price per unit |
+| **Unit Cost** | Production/procurement cost per unit |
+| **Total Revenue** | Total income from sales |
+| **Total Cost** | Total cost of goods sold |
+| **Total Profit** | Net profit (Revenue - Cost) |
 
-### 🌍 Geographic Regions Covered
-1. **North America** (Canada, USA, Greenland)
-2. **Europe** (Multiple EU countries)
-3. **Asia** (Japan, Mongolia, Laos, Maldives, etc.)
-4. **Sub-Saharan Africa** (Multiple countries)
-5. **Middle East and North Africa** (Libya, Turkey, Israel, etc.)
-6. **Central America and the Caribbean** (Jamaica, Honduras, etc.)
-7. **Australia and Oceania** (Fiji, Micronesia)
+*For detailed field descriptions, see [DATA_DICTIONARY.md](DATA_DICTIONARY.md)*
+
+### 🌍 Geographic Coverage
+- **North America** (Canada, USA, Greenland)
+- **Europe** (Multiple EU countries)
+- **Asia** (Japan, Mongolia, Laos, Maldives, etc.)
+- **Sub-Saharan Africa** (Multiple countries)
+- **Middle East and North Africa** (Libya, Turkey, Israel, etc.)
+- **Central America and the Caribbean** (Jamaica, Honduras, etc.)
+- **Australia and Oceania** (Fiji, Micronesia)
 
 ### 🛍️ Product Categories
-- Cosmetics
-- Vegetables
-- Baby Food
-- Cereal
-- Fruits
-- Clothes
-- Household items
-- Office Supplies
-- Snacks
-- Beverages
-- Meat
-- Personal Care
+Cosmetics • Vegetables • Baby Food • Cereal • Fruits • Clothes • Household • Office Supplies • Snacks • Beverages • Meat • Personal Care
 
 ---
 
@@ -93,46 +80,29 @@ The dataset contains **1,000 retail transaction records** from a global retail c
 The Excel dashboard provides a comprehensive view of business performance through multiple interactive components:
 
 ### 🎯 Key Performance Indicators (KPIs)
-- **Total Orders:** Complete count of transactions processed
-- **Total Revenue:** Aggregate income generated from all sales
-- **Total Cost:** Cumulative cost of goods sold
-- **Total Profit:** Net profit across all transactions
+- **Total Orders** - Complete count of transactions processed
+- **Total Revenue** - Aggregate income generated from all sales
+- **Total Cost** - Cumulative cost of goods sold
+- **Total Profit** - Net profit across all transactions
 
 ### 📈 Interactive Visualizations
 
-1. **Top 10 Countries by Profit** (Horizontal Bar Chart)
-   - Identifies the most profitable markets
-   - Helps prioritize resource allocation
-
-2. **Profit by Region** (Pie/Donut Chart)
-   - Shows profit distribution across geographic regions
-   - Enables regional performance comparison
-
-3. **Profit by Item Type** (Bar Chart)
-   - Displays profitability of different product categories
-   - Guides inventory and product strategy decisions
-
-4. **Profit by Sales Channel** (Pie Chart)
-   - Compares Online vs Offline sales performance
-   - Informs channel investment strategies
-
-5. **Yearly Profit Trend** (Line Chart)
-   - Tracks profit evolution over time (2010-2017)
-   - Identifies growth patterns and seasonal trends
-
-6. **Order Priority Distribution** (Visualization)
-   - Analyzes the distribution of order priorities
-   - Helps optimize logistics and fulfillment
+1. **Top 10 Countries by Profit** - Identifies the most profitable markets globally
+2. **Profit by Region** - Shows profit distribution across geographic regions
+3. **Profit by Item Type** - Displays profitability of different product categories
+4. **Profit by Sales Channel** - Compares Online vs Offline sales performance
+5. **Yearly Profit Trend** - Tracks profit evolution over time (2010-2017)
+6. **Order Priority Distribution** - Analyzes the distribution of order priorities
 
 ### 🎛️ Interactive Filters
-- **Item Type Slicer:** Filter all visualizations by specific product categories
+- **Item Type Slicer** - Filter all visualizations by specific product categories
 - Dynamic updates across all charts for real-time analysis
 
 ---
 
 ## 💡 Key Insights & Findings
 
-Based on the comprehensive analysis of 1,000 transactions spanning 2010-2017:
+Based on comprehensive analysis of 1,000 transactions spanning 2010-2017:
 
 ### 🏆 Geographic Performance
 - **Sub-Saharan Africa** shows significant presence in the dataset
@@ -141,7 +111,7 @@ Based on the comprehensive analysis of 1,000 transactions spanning 2010-2017:
 
 ### 📦 Product Performance
 - **High-value items** include Household goods (Unit Price: $668.27) and Office Supplies (Unit Price: $651.21)
-- **Fast-moving products** include Fruits and Beverages (lower unit prices but potentially higher volume)
+- **Fast-moving products** include Fruits and Beverages (lower unit prices, higher volume)
 - **Profit margins** vary significantly across product categories
 
 ### 🌐 Sales Channel Insights
@@ -150,14 +120,9 @@ Based on the comprehensive analysis of 1,000 transactions spanning 2010-2017:
 - Multi-channel strategy is essential for market coverage
 
 ### 📅 Temporal Trends
-- Business operations span **7+ years** (2010-2017)
-- Consistent year-over-year activity indicates business stability
-- Seasonal patterns can be identified through date analysis
-
-### ⚡ Order Priority Patterns
-- Mix of **Critical (C), High (H), Medium (M), and Low (L)** priority orders
-- Priority levels impact shipping schedules and customer satisfaction
-- Helps optimize operational efficiency
+- Business operations span **7+ years** with consistent activity
+- Year-over-year patterns indicate business stability
+- Growth opportunities identified through trend analysis
 
 ---
 
@@ -166,16 +131,19 @@ Based on the comprehensive analysis of 1,000 transactions spanning 2010-2017:
 ```
 Retail_Store_Profit_Analysis/
 │
-├── 📄 README.md                          # Project documentation (you are here)
+├── 📄 README.md                          # Project documentation
+├── 📄 DATA_DICTIONARY.md                 # Detailed field descriptions
+├── 📄 LICENSE                            # MIT License
+├── 📄 .gitignore                         # Git ignore rules
 │
-├── 📊 data/
+├── 📂 data/
 │   └── retail-store-sales-data.csv       # Raw dataset (1,000 transactions)
 │
-├── 📈 dashboard/
+├── 📂 dashboard/
 │   └── retail-store-dashboard.png        # Complete dashboard screenshot
 │
-├── 📉 visualizations/
-│   ├── kpi-cards-and-slicers.png         # KPI metrics and filter controls
+├── 📂 visualizations/
+│   ├── kpi-cards-and-slicers.png         # KPI metrics and filters
 │   ├── profit-by-item-type.png           # Product category performance
 │   ├── profit-by-region.png              # Regional profit distribution
 │   ├── profit-by-sales-channel.png       # Online vs Offline comparison
@@ -184,33 +152,28 @@ Retail_Store_Profit_Analysis/
 │   └── order-priority-distribution.png   # Priority level breakdown
 │
 └── 📂 workbook/
-    └── retail-store-analysis.xlsx        # Excel file with data, pivots, and dashboard
+    └── retail-store-analysis.xlsx        # Excel file with analysis
 ```
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-This project was built using the following tools and techniques:
-
 ### Microsoft Excel
-- **Version:** Excel 2016 or later recommended
-- **Features Used:**
-  - Pivot Tables for data aggregation and summarization
-  - Pivot Charts for dynamic visualizations
-  - Slicers for interactive filtering
-  - Conditional Formatting for data highlighting
-  - Data Validation for data integrity
-  - Formulas and Functions (SUM, AVERAGE, IF, etc.)
+- **Pivot Tables** for data aggregation and summarization
+- **Pivot Charts** for dynamic visualizations
+- **Slicers** for interactive filtering
+- **Conditional Formatting** for data highlighting
+- **Formulas and Functions** (SUM, AVERAGE, IF, etc.)
 
-### Data Processing Techniques
+### Data Analysis Techniques
 - ✅ Data Cleaning and Preparation
-- ✅ Data Transformation and Feature Engineering
 - ✅ Statistical Analysis
 - ✅ Time Series Analysis
 - ✅ Comparative Analysis
+- ✅ KPI Development
 
-### Visualization Techniques
+### Visualization Types
 - 📊 Bar Charts (Horizontal & Vertical)
 - 🥧 Pie Charts & Donut Charts
 - 📈 Line Charts for Trends
@@ -222,44 +185,37 @@ This project was built using the following tools and techniques:
 ## 🚀 How to Use
 
 ### Prerequisites
-- Microsoft Excel 2016 or later
+- Microsoft Excel 2016 or later (Excel 2019/365 recommended)
 - Basic understanding of Excel navigation
-- (Optional) Power Pivot add-in for advanced analysis
 
-### Steps to Explore the Dashboard
+### Steps to Explore
 
 1. **Download the Repository**
    ```bash
    git clone https://github.com/divyathakur15/Retail_Store_Profit_Analysis.git
    cd Retail_Store_Profit_Analysis
-   ```a
+   ```
 
 2. **Open the Excel Workbook**
    - Navigate to the `workbook/` folder
    - Open `retail-store-analysis.xlsx`
-   - Enable Editing if prompted by Excel
+   - Enable Editing if prompted
 
 3. **Explore the Dashboard**
-   - The main dashboard is typically on the first sheet
    - Use the **Item Type Slicer** to filter data by product category
    - Hover over charts to see detailed tooltips
    - Click on chart elements for drill-through capabilities
 
 4. **Analyze the Data**
-   - Review the **Raw Data** sheet to understand the source data
-   - Explore **Pivot Tables** to see how metrics are calculated
+   - Review the **Raw Data** sheet
+   - Explore **Pivot Tables** to see calculations
    - Modify slicers to create custom views
 
-5. **Customize (Optional)**
-   - Add new calculated fields in pivot tables
-   - Create additional visualizations based on your needs
-   - Apply custom formatting to match your brand
+### Working with Raw Data
 
-### Working with the Raw Data
-
-The CSV file (`data/retail-store-sales-data.csv`) can be:
-- Imported into other BI tools (Power BI, Tableau, etc.)
-- Analyzed using Python (Pandas, Matplotlib, Seaborn)
+The CSV file can be:
+- Imported into other BI tools (Power BI, Tableau)
+- Analyzed using Python (Pandas, Matplotlib)
 - Queried using SQL databases
 - Processed with R for statistical analysis
 
@@ -268,35 +224,28 @@ The CSV file (`data/retail-store-sales-data.csv`) can be:
 ## 🖼️ Visualizations
 
 ### Complete Dashboard
-![Complete Dashboard](../dashboard/retail-store-dashboard.png)
+![Complete Dashboard](dashboard/retail-store-dashboard.png)
 
 ### KPI Cards and Slicers
-![KPI Cards](../visualizations/kpi-cards-and-slicers.png)
-*Key metrics at a glance with interactive filters*
+![KPI Cards](visualizations/kpi-cards-and-slicers.png)
 
 ### Top 10 Countries by Profit
-![Profit by Country](../visualizations/top-10-profit-by-country.png)
-*Identifying the most profitable markets globally*
+![Profit by Country](visualizations/top-10-profit-by-country.png)
 
 ### Profit Distribution by Region
-![Profit by Region](../visualizations/profit-by-region.png)
-*Regional performance comparison*
+![Profit by Region](visualizations/profit-by-region.png)
 
 ### Product Category Performance
-![Profit by Item Type](../visualizations/profit-by-item-type.png)
-*Which products generate the most profit?*
+![Profit by Item Type](visualizations/profit-by-item-type.png)
 
 ### Sales Channel Analysis
-![Sales Channel](../visualizations/profit-by-sales-channel.png)
-*Online vs Offline performance*
+![Sales Channel](visualizations/profit-by-sales-channel.png)
 
 ### Yearly Profit Trend
-![Yearly Trend](../visualizations/yearly-profit-trend.png)
-*Profit evolution from 2010 to 2017*
+![Yearly Trend](visualizations/yearly-profit-trend.png)
 
 ### Order Priority Distribution
-![Order Priority](../visualizations/order-priority-distribution.png)
-*Understanding order urgency patterns*
+![Order Priority](visualizations/order-priority-distribution.png)
 
 ---
 
@@ -312,27 +261,6 @@ Potential improvements for this project:
 - [ ] Perform ABC analysis for inventory management
 - [ ] Include profit margin % calculations by category
 - [ ] Add geographic mapping visualizations
-- [ ] Implement what-if scenario analysis
-- [ ] Create mobile-friendly dashboard version
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve this project:
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
-
-### Ways to Contribute
-- Report bugs or issues
-- Suggest new features or visualizations
-- Improve documentation
-- Add new analysis perspectives
-- Optimize Excel formulas and calculations
 
 ---
 
@@ -341,7 +269,6 @@ Contributions are welcome! If you'd like to improve this project:
 **Divya Thakur**
 - GitHub: [@divyathakur15](https://github.com/divyathakur15)
 - LinkedIn: [Connect with me](https://www.linkedin.com/in/divyathakur15)
-- Email: your.email@example.com
 
 ---
 
@@ -353,16 +280,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Dataset source: [Specify source if applicable]
-- Inspiration from various retail analytics projects
 - Microsoft Excel community for tips and best practices
 - Open source community for continuous learning
+- Data analysis best practices from the analytics community
 
 ---
 
-## ⭐ Star This Repository
+## ⭐ Show Your Support
 
-If you found this project helpful, please consider giving it a star! It helps others discover the project and motivates further development.
+If you found this project helpful, please consider giving it a star! It helps others discover the project.
 
 ---
 
