@@ -1,0 +1,59 @@
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# Excel backup files
+*.xlk
+~*.tmp
+
+# Excel auto-save files
+*.xlsx#
+*.xls#
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup folders
+backup/
+old/
+archive/
+
+# Personal notes
+notes.txt
+todo.txt
+*.draft
+
+# Large data files (if any)
+*.zip
+*.rar
+*.7z
+
+# Python (if used for analysis)
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# R (if used for analysis)
+.Rhistory
+.RData
+.Rproj.user
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
