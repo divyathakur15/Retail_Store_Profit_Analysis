@@ -182,45 +182,6 @@ Retail_Store_Profit_Analysis/
 
 ---
 
-## 🚀 How to Use
-
-### Prerequisites
-- Microsoft Excel 2016 or later (Excel 2019/365 recommended)
-- Basic understanding of Excel navigation
-
-### Steps to Explore
-
-1. **Download the Repository**
-   ```bash
-   git clone https://github.com/divyathakur15/Retail_Store_Profit_Analysis.git
-   cd Retail_Store_Profit_Analysis
-   ```
-
-2. **Open the Excel Workbook**
-   - Navigate to the `workbook/` folder
-   - Open `retail-store-analysis.xlsx`
-   - Enable Editing if prompted
-
-3. **Explore the Dashboard**
-   - Use the **Item Type Slicer** to filter data by product category
-   - Hover over charts to see detailed tooltips
-   - Click on chart elements for drill-through capabilities
-
-4. **Analyze the Data**
-   - Review the **Raw Data** sheet
-   - Explore **Pivot Tables** to see calculations
-   - Modify slicers to create custom views
-
-### Working with Raw Data
-
-The CSV file can be:
-- Imported into other BI tools (Power BI, Tableau)
-- Analyzed using Python (Pandas, Matplotlib)
-- Queried using SQL databases
-- Processed with R for statistical analysis
-
----
-
 ## 🖼️ Visualizations
 
 ### Complete Dashboard
