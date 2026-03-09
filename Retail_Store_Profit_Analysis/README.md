@@ -295,7 +295,7 @@ Contributions are welcome! If you'd like to improve this project:
 **Divya Thakur**
 - GitHub: [@divyathakur15](https://github.com/divyathakur15)
 - LinkedIn: [Connect with me](https://www.linkedin.com/in/divyathakur15)
-- Email:  [Emial](divya.thakur1506@gmail.com)
+- Email:  [Email](divya.thakur1506@gmail.com)
 
 ---
 
