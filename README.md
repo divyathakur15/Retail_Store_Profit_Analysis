@@ -1,6 +1,5 @@
 ﻿# 📊 Retail Store Profit Analysis Dashboard
 
-![Dashboard Preview](dashboard/retail-store-dashboard.png)
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
